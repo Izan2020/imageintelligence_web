@@ -1,5 +1,5 @@
 # Image Intelligence 
-Image Intelligence is a website created by you for your dad. It utilizes Bootstrap 5.3, a popular front-end framework, along with CSS for styling. Additionally, you've incorporated the AOS package, which stands for "Animate On Scroll," to add scroll-based animations to enhance the user experience.
+Image Intelligence is a Landing Page website createdfor my dad. It utilizes Bootstrap 5.3, a popular front-end framework, along with CSS for styling. Additionally, you've incorporated the AOS package, which stands for "Animate On Scroll," to add scroll-based animations to enhance the user experience.
 
 The website, Image Intelligence, likely focuses on some aspect of visual content or image-related services, given its name. With Bootstrap 5.3 as the foundation, the website is designed to be responsive, ensuring that it looks great and functions well on various devices and screen sizes.
 
