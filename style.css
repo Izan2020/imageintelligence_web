@@ -1,0 +1,263 @@
+/* Home Section */
+#home {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.438), rgba(44, 44, 44, 0.558)), url(assets/bg-home.png);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100%;
+}
+
+header .navigation-bar {
+    position: fixed;
+    background-color: transparent;
+    transition: .3s;
+    z-index: 99;
+
+}
+
+.ul-navigation-bar li {
+    transition: .3s;
+    
+}
+
+.ul-navigation-bar li:hover {
+    color: #FF6B6B;
+    cursor: pointer;
+}
+
+header.sticky .navigation-bar {
+    position: fixed;
+    background-color: gray;
+    padding: 2%;
+}
+
+
+.navigation-bar-nav {
+    display: inline;
+}
+
+.ul-navigation-bar li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.home-titles {
+    margin: 9%;
+}
+
+.home-title {
+    font-size: 36px;
+}
+
+.home-subtitle {
+    font-size: 20px;
+}
+
+@media (max-width: 578px) {
+    .navigation-bar-nav {
+        display: none;
+    }
+
+    .home-title {
+        font-size: 30px;
+    }
+
+    .home-subtitle {
+        font-size: 18px;
+    }
+}
+
+/* About Section */
+
+.about-body {
+    margin: 8%;
+}
+
+.about-title {
+    font-size: 29px;
+}
+
+.about-description {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about-title span {
+    color: #FF6B6B;
+}
+
+/* Services Section */
+#services {
+
+    background-color: #EFEFEF;
+    padding: 4%;
+}
+
+@media (max-width: 578px) {
+    #services {
+
+        height: 172%;
+    }
+}
+
+.services-description {
+    width: 60%;
+    text-align: center;
+}
+
+.card-services {
+    width: 350px;
+    box-shadow: 0 3px 10px rgba(0, 2, 0, 0.151);
+
+    border-radius: 42px;
+    background-color: white;
+    margin: 1%;
+    padding: 4%;
+}
+
+.card-texts h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.card-texts p {
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.card-services-circle {
+    width: 90px;
+    height: 90px;
+    padding: 2%;
+
+    border-radius: 100%;
+
+
+}
+
+.c-c-s-1 {
+    background-color: #FFBBBB;
+}
+
+.c-c-s-2 {
+    background-color: #DDFFBB;
+}
+
+.c-c-s-3 {
+    background-color: #BBE2FF;
+}
+
+.c-s-1 {
+    background-color: #FFEEEE;
+
+
+}
+
+.c-s-2 {
+    background-color: #F7FFEE;
+
+
+}
+
+.c-s-3 {
+
+    background-color: #F2FAFF;
+}
+
+
+.card-services-circle img {
+    width: auto;
+    height: 50px;
+
+}
+
+/* About 2 Section */
+
+#about-2 {
+    padding: 8%;
+}
+
+.card-about {
+    background-color: #FFEEEE;
+    border-radius: 42px;
+    padding: 4%;
+}
+
+.about-content-subtitle {
+    font-weight: bold;
+    color: #FFBBBB;
+}
+
+.about-content-title {
+    font-weight: bold;
+
+}
+
+.about-content-description {
+    font-weight: light;
+    margin-top: 4%;
+}
+
+.about-content-image {
+    display: flex;
+    position: relative;
+}
+
+.about-content-image .wrapper-image {
+    position: absolute;
+    right: 22;
+    bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .about-content-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+
+    .about-content-image .wrapper-image {
+        position: relative;
+        right: 0;
+    }
+}
+
+/* Testimonial Section */
+#testimonials {
+    padding: 8%;
+}
+
+.testimonial-card {
+    min-height: 250px;
+    width: 450px;
+    background-color: #EFEFEF;
+    border-radius: 22px;
+}
+
+.t-card-client-name {
+    font-weight: bold;
+}
+
+.t-card-company-name {
+    color: #FF6B6B;
+    line-height: 50%;
+    font-size: 22px;
+    font-weight: lighter;
+
+}
+
+.t-card-message {
+    font-weight: 300;
+    color: gray;
+    font-size: 17px;
+}
+
+.circle-testimonial {
+    width: 90px;
+    height: 90px;
+    padding: 2%;
+    background-color: #BBE2FF;
+    border-radius: 100%;
+}
