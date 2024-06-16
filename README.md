@@ -2,7 +2,7 @@
 
 [![Technologies](https://skillicons.dev/icons?i=html,css,bootstrap,js)](https://skillicons.dev)
 
-# Image Intelligence 
+# Image Intelligence Website
 
 Image Intelligence is a Landing Page website createdfor my dad. It utilizes Bootstrap 5.3, a popular front-end framework, along with CSS for styling. Additionally, you've incorporated the AOS package, which stands for "Animate On Scroll," to add scroll-based animations to enhance the user experience.
 
