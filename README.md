@@ -1,5 +1,6 @@
 # Image Intelligence 
 
+[![Technologies](https://skillicons.dev/icons?i=html,css,bootstrap,js)](https://skillicons.dev)
 
 ![Website Mockup](https://github.com/Izan2020/imageintelligence_web/assets/59131023/c3a85ad8-d66f-483b-ada4-e4eb58121986)
 
